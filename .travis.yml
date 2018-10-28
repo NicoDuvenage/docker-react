@@ -1,6 +1,6 @@
 sudo: required
 services:
-  - docker
+  - docker-react
 
 before_install:
   - docker build -t nicod/docker-react -f Dockerfile.dev .
